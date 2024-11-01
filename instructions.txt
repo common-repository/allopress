@@ -1,0 +1,44 @@
+Copyright 2008 Erwan Regnier
+Documentation: http://www.allopress.com
+
+## IMPORTANT ##
+
+Plugin NON OpenSource !
+L'utilisation de ce plugin sans licence valide vous expose à des poursuites.
+Pour obtenir une licence vous devez obtenir ce script depuis le site http://www.allopress.com
+Il est distribué sans garanties concernant les eventuelles pertes ou alterations de donnees ou de compatibilite avec un plugin tiers.
+
+L'acquisition d'une licence ne vous donne pas le droit de redistribuer ou de modifier ce script.
+
+La version 1.0.2 dite version Argent de ce plugin Allopress est 'gratuite', vous toucherez 90% des revenus generes par les formulaires Allopass installes par le plugin.
+Cette version est limitee en fonctionnalites, pour une version plus complete utilisez la version Or, rendez-vous sur http://www.allopress.com
+
+## CHANGELOG ##
+
+version 1.0.2 :
+-Correction d'un bug avec les sessions Wordpress (le formulaire restait affiche apres saisie d'un code valide)
+-Correction d'un bug avec les blogs installes en sous repertoire (http://www.monsite.com/monblog/)
+
+version 1.0.1 :
+-Correction d'un bug dans l'administration (affichage de l'ancien ID du document lors de la mise à jour)
+-Correction d'un bug dans l'administration (remise à 0 des tables à la reactivation du plugin)
+-Ajout de la redirection vers l'article dans lequel le code allopass a été saisi si celui-ci est valide (au lieu de l'index du blog)
+
+
+## INSTALLATION et CONFIGURATION##
+
+Décompressez le fichier allopress.php de cette archive et uploadez le dans le dossier /wp-content/plugins de votre blog wordpress
+Dans la page d'administration de WordPress cliquez sur Extensions, et activez l'extension Allopress.
+
+Pour configurer Allopress :
+Une fois installé vous devez configurer le plugin en suivant les instructions données, pour cela dans l'administration WordPress cliquez sur Reglages , puis dans le sous menu Allopress.
+
+Pour protéger un article ou une partie de son contenu placez le contenu à protéger entre les balises [ALLOPRESS] et [/ALLOPRESS]
+
+C'est tout !
+
+Notes: 
+- La version gratuite ne prend pas en charge les document Allopass CB > 3€ (documents carte bleue uniquement)
+- Il ne faut creer qu'un seul 'document' Allopass, la tarification choisie pour ce document sera la meme pour tous les articles proteges.
+
+
